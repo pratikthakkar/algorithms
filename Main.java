@@ -64,7 +64,7 @@ public class Main {
                 int countClone = (int) cloneMap.get(pair.getKey());
                 countClone--;
                char currentChar=(char)pair.getKey();
-               if(high!=prevChar && high!=currentChar && diff>0 && prevChar!=' ')
+               if(high!=prevChar && high!=currentChar && diff>1 && prevChar!=' ')
                {
                    //System.out.println(high + " = " + diff+"--<");
                    System.out.print(high);
